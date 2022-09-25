@@ -1,0 +1,27 @@
+/*Class Selectors*/
+.heading_2{
+    color: blue;
+}
+.heading_1{
+    color: red;
+}
+
+/*Group Selectors*/
+h1, h2{
+    color: blueviolet;
+}
+
+
+/*Element Selectors*/
+p{
+    color: forestgreen;
+}
+
+/*Id Selectors*/
+#one{
+    color: crimson;
+}
+
+#two{
+    color: forestgreen;
+}
