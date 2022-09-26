@@ -1,0 +1,16 @@
+.red{
+    color:deeppink;
+}
+
+.green{
+    color:aquamarine;
+}
+
+div{
+    background-color: black;
+    color: white;
+}
+
+span{
+    text-transform: uppercase;
+}
