@@ -1,0 +1,23 @@
+/*Color names*/
+#first {
+    color: aqua;
+    background-color: dimgray;
+}
+
+/*RGB*/
+#second {
+    color: black;
+    background-color: blanchedalmond;
+}
+
+/*RGBA*/
+#t {
+    color: rgb(156, 43, 54);
+    background-color: rgb(255, 205, 225);
+}
+
+/*HEX*/
+#f {
+    color: #00FA9A;
+    background-color: #808080;
+}
