@@ -1,0 +1,39 @@
+/*
+line_height
+letter-spacing
+word-spacing
+text-transform
+text-decoration
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+p{
+    font-size: 20px;
+}
+.one{
+    color: whitesmoke;
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border: 3px solid yellow;
+}
+
+.two{
+    color: rgb(39, 19, 19);
+    padding: 20px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: black;
+    margin-top: -13px;
+    
+}
