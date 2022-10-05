@@ -7,15 +7,16 @@ outline
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
 
-body{
+body {
     margin: 0;
     font-family: 'Noto Sans Mono', monospace;
 }
 
-p{
+p {
     font-size: 20px;
 }
-.one{
+
+.one {
     color: whitesmoke;
     background-color: rebeccapurple;
     border-radius: 10px;
@@ -27,7 +28,7 @@ p{
     border: 3px solid yellow;
 }
 
-.two{
+.two {
     color: rgb(39, 19, 19);
     padding: 20px;
     border-width: 3px;
@@ -36,11 +37,11 @@ p{
     margin-top: -10px;
 }
 
-.buttons{
+.buttons {
     margin: 30px;
 }
 
-.buttons a{
+.buttons a {
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 10px 20px;
@@ -48,14 +49,13 @@ p{
     color: whitesmoke;
     background-color: rebeccapurple;
 }
-#one_b{
+
+#one_b {
     border: 3px solid rgb(119, 255, 0);
 }
 
-#two_b{
+#two_b {
     margin-left: 10px;
     outline: 3px solid rgb(119, 255, 0);
     outline-offset: 5px;
 }
-
-
