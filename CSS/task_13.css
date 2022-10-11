@@ -1,0 +1,26 @@
+/*
+Mobile navbar
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    margin: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background: #222;
+    color: aliceblue;
+    display: block;
+    padding: 10px;
+}
