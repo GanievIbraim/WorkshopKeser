@@ -16,10 +16,7 @@ div{
     color:azure;
     font-size: 50px;
     display: flex;
-    
     align-items: center;
-    
-    
 }
 
 .big{ 
@@ -43,4 +40,40 @@ div{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+}
+
+.gradients{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    height: 150px;
+}
+.gradients div {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.gradients .one{
+    background: linear-gradient(#24AADB, #E94584);
+}
+
+.gradients .two{
+    background: linear-gradient(to top, #faf0cd, #fab397, #5fc3e4);
+}
+
+.gradients .three{
+    background: linear-gradient(150deg, #e9e442, #5611ec);
+}
+
+.gradients .four{
+    background: linear-gradient(to top right, #E94584, #57dca5);
+}
+
+.gradients .five{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+}
+
+.gradients .six{
+    background: linear-gradient( to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
 }
