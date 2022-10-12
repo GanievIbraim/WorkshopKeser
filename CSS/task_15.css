@@ -1,0 +1,46 @@
+/*
+background
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+div{
+    height: 100vh;
+    color:azure;
+    font-size: 50px;
+    display: flex;
+    
+    align-items: center;
+    
+    
+}
+
+.big{ 
+    background: url('./img/code1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.small{
+    background: url('./img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.folder{
+    background: url('./img/code2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
