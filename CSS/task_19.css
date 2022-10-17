@@ -1,0 +1,119 @@
+/*
+    z-index
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+*{
+    font-family: 'Noto Sans Mono';
+}
+
+.banner img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+.banner{
+    margin: 20px;
+    width: 70vw;
+    height: 70vh;
+    border: 5px solid red;
+    position: relative;
+    
+}
+
+#one{
+    top: 0;
+    left: 0;
+    position: static;
+    z-index: 100;
+}
+
+#two{
+    top: 15%;
+    left: 15%;
+    z-index: 1;
+}
+
+#three{
+    top: 30%;
+    left: 30%;
+    z-index: 2;
+}
+
+/*
+    ::Before And ::After Pseudo Elements
+*/
+
+p::before{
+    content: "BEGIN ";
+    display: block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background: green;
+    color: white;
+}
+
+p::after{
+    content: " END";
+    display: block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background: red;
+    color: white;
+}
+
+#image img{
+    width: 100%;
+    display: block;
+}
+#image{
+    position: relative;
+    width: 25vw;
+    margin: 100px auto;
+    border: 0px solid gray;
+    transition: all 0.5s linear;
+    top: 0;
+    left: 0;
+}
+
+#image::before{
+    content: "";
+    border: 2px solid gray;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    transition: all 0.5s linear;
+}
+
+#image::after{
+    content: "";
+    border: 4px solid gray;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    top: 0px;
+    left: 0px;
+    z-index: -1 ;
+    transition: all 0.5s linear;
+}
+
+#image:hover::after{
+    top: -20px;
+    left: -20px;
+}
+#image:hover::before{
+    top: -40px;
+    left: -40px;
+}
+#image:hover{
+    top: 10px;
+    left: 10px;
+}
+
+
