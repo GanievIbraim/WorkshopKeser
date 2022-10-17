@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+body{
+    background: yellow;
+}
+
+.banner{
+    background: blueviolet;
+}
+
+h1{
+    font-family: 'Noto Sans Mono';
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 1000px){
+    body{
+        background: forestgreen;
+    }
+
+    .banner{
+        background: rgb(255, 30, 0);
+    }
+    h1{
+        color: black;
+        font-size: 60px;
+
+    }
+}
