@@ -1,0 +1,63 @@
+/*
+    First-letter and first-line
+    :hover :link :visited :active
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+*{
+    font-family: 'Noto Sans Mono';
+    font-size: 25px;
+}
+
+.first::first-letter{
+    font-size: 50px;
+    color: red; 
+}
+
+.first::first-line{
+    font-weight: bold;
+}
+
+.header:hover{
+    background: blueviolet;
+    color: yellow;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: green;
+}
+
+/*
+    :root
+*/
+
+:root{
+    font-size: 130%;
+}
+h1{
+    font-size: 3rem;
+}
+
+.absolute{
+    font-size: 24px;
+}
+
+.res{
+    font-size: 1.5rem;
+}
