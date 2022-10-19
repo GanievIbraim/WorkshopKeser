@@ -1,0 +1,64 @@
+/*
+    Css Variables
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+*{
+    font-family: 'Noto Sans Mono';
+    text-transform: uppercase;
+}
+
+:root{
+    --primaryColor: #04323d;
+    --secondaryColor: #7908e2;
+    --mainTransition: all 0.4s linear;
+}
+
+.heading{
+    color: var(--primaryColor);
+}
+div{
+    --primaryRed: red;
+}
+.second-heading{
+    color: var(--primaryColor);
+    transition: var(--mainTransition);
+}
+.main-text{
+    color: var(--primaryRed);
+
+}
+.second-heading:hover{
+    color: var(--secondaryColor);
+}
+
+/* 
+    ICONS 
+*/
+.fa-solid{
+    color: #7908e2;
+}
+
+/* 
+    Text-shadow and box-shadow 
+*/
+
+.txtSh{
+    color: rgb(0, 149, 255);
+    text-shadow: 2px 2px 15px rgb(0, 149, 255);
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    background: #55ECC3;
+    margin: 20px;
+    transition: all 0.5s linear;
+}
+
+.box:hover{
+    -webkit-box-shadow: 8px 10px 0px 1px rgba(34, 60, 80, 0.64);
+    -moz-box-shadow: 8px 10px 0px 1px rgba(34, 60, 80, 0.64);
+    box-shadow: 8px 10px 0px 1px rgba(34, 60, 80, 0.64);
+}
+
