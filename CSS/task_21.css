@@ -1,0 +1,39 @@
+/*
+    Transform
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+*{
+    font-family: 'Noto Sans Mono';
+}
+
+div{
+    margin: 40px 20px;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.one{
+    z-index: 0;
+    background: rebeccapurple;
+    transform: translateX(50%);
+}
+.two{
+    z-index: 4;
+    background: teal;
+    transform: scaleX(0.5);
+}
+.three{
+    margin-left: -20px;
+    background: rgb(255, 76, 11);
+    transform: rotate(45deg);
+}
+.four{
+    background: greenyellow;
+    transform: skewY(-20deg);
+}
+
+
+
+
