@@ -1,0 +1,34 @@
+/*
+    Transition Property
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+*{
+    font-family: 'Noto Sans Mono';
+}
+
+.part_1{
+    width: 150px;
+    height: 150px;
+    transition: all 0.5s 0.09s;
+}
+
+#one:hover, 
+#two:hover,
+#three:hover{
+    background: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+}
+
+#one{
+    background: rebeccapurple;
+}
+#two{
+    background: teal;
+}
+#three{
+    background: rgb(255, 76, 11);
+
+}
+
