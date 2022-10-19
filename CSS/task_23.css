@@ -1,0 +1,121 @@
+/*
+    Transition-Timing Function
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+*{
+    font-family: 'Noto Sans Mono';
+    text-transform: uppercase;
+}
+
+.one div{
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    background: blueviolet;
+    color: aliceblue;
+    margin: 15px;
+    transition: all 1s ease-out;
+}
+
+.one div:hover{
+    transform: translateX(100px);
+}
+
+.ease{
+    transition-timing-function: ease;
+}
+.linear{
+    transition-timing-function: linear;
+}
+.ease-in{
+    transition-timing-function: ease-in;
+}
+.ease-out{
+    transition-timing-function: ease-out;
+}
+.ease-in-out{
+    transition-timing-function: ease-in-out;
+}
+
+/*
+    Animation 1
+*/
+
+.two div{
+    width: 200px;
+    height: 100px;
+    color: aliceblue;
+    margin: 10px;
+}
+
+.tran{
+    background: forestgreen;
+    transition: all 2s linear;
+}
+.tran:hover{
+    background: yellow;
+    transform: translateX(100px);
+}
+
+.anim{
+    background: orange;
+    /*animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: 2;*/
+    animation: move1 5s infinite;
+}
+
+@keyframes move1 {
+    0% {
+        transform: translateX(20px);
+    }
+    50% {
+        transform: translateX(100px);
+        background: rebeccapurple;
+    }
+    75%{
+        transform: translateX(-200px);
+        background: fuchsia;
+    }
+    100%{
+        transform: translateX(20px);
+        background: green;
+    }
+}
+
+/*
+    Animation 2
+*/
+
+.three div{
+    width: 200px;
+    height: 100px;
+    color: aliceblue;
+    margin: 10px;
+}
+
+.animation{
+    background: orange;
+    animation: move2 5s 2;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move2 {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        transform: translateX(200px);
+        opacity: 0.25;
+    }
+    50% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(40px);
+        opacity: 0.5;
+    }
+    
+}
